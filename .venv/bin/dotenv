@@ -1,4 +1,4 @@
-#!/Users/kou234/DEV/TEST/ControlBrowser/.venv/bin/python3.11
+#!/Users/kou234/DEV/TEST/Selenium/.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
