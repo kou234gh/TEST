@@ -40,7 +40,7 @@ tag_divs = tag_body.find_elements(by=By.CSS_SELECTOR, value="div[data-index]")
 title_links = tag_body.find_elements(
     by=By.CSS_SELECTOR, value="div > ol > li > article > h3 > a")
 
-with open('/readme.txt', 'a') as f:
+with open('readme.txt', 'a') as f:
 
     for title_link in title_links:
         new_page = title_link.click()
